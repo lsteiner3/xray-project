@@ -3,6 +3,8 @@ Dev1,
 
 num of devices installed: 1
 
+Connect block: BNC-2090
+
 Device Dev1 has the following terminals: 
 /Dev1/PFI0,/Dev1/PFI1,/Dev1/PFI2,/Dev1/PFI3,/Dev1/PFI4,/Dev1/PFI5,/Dev1/PFI6,/Dev1/PFI7,/Dev1/PFI8,/Dev1/PFI9,/Dev1/PFI10,/Dev1/PFI11,/Dev1/PFI12,/Dev1/PFI13,/Dev1/PFI14,/Dev1/PFI15,/Dev1/APFI0,/Dev1/RTSI0,/Dev1/RTSI1,/Dev1/RTSI2,/Dev1/RTSI3,/Dev1/RTSI4,/Dev1/RTSI5,/Dev1/RTSI6,/Dev1/RTSI7,/Dev1/ai/SampleClock,/Dev1/ai/StartTrigger,/Dev1/ai/ReferenceTrigger,/Dev1/ao/SampleClock,/Dev1/ao/StartTrigger,/Dev1/di/SampleClock,/Dev1/do/SampleClock,/Dev1/20MHzTimebase,/Dev1/80MHzTimebase,/Dev1/10MHzRefClock,/Dev1/ChangeDetectionEvent,/Dev1/ai/ConvertClock,/Dev1/ai/ConvertClockTimebase,/Dev1/ai/HoldCompleteEvent,/Dev1/ai/PauseTrigger,/Dev1/ai/SampleClockTimebase,/Dev1/AnalogComparisonEvent,/Dev1/ao/PauseTrigger,/Dev1/ao/SampleClockTimebase,/Dev1/Ctr0Source,/Dev1/Ctr1Source,/Dev1/Ctr0Gate,/Dev1/Ctr1Gate,/Dev1/Ctr0Aux,/Dev1/Ctr1Aux,/Dev1/Ctr0ArmStartTrigger,/Dev1/Ctr1ArmStartTrigger,/Dev1/Ctr0InternalOutput,/Dev1/Ctr1InternalOutput,/Dev1/Ctr0A,/Dev1/Ctr1A,/Dev1/Ctr0B,/Dev1/Ctr1B,/Dev1/Ctr0Z,/Dev1/Ctr1Z,/Dev1/PairedCtrInternalOutput,/Dev1/PairedCtrOutputPulse,/Dev1/FrequencyOutput,/Dev1/100kHzTimebase,/Dev1/None,
 
