@@ -1,0 +1,16 @@
+A: The IMAQdx Open camera VI will query the given camera and loads the camera configuration file and creates a unique reference to the camera to communicate
+B: The property node is used to configure the camera settings. In this example, we have updated three parameters
+                      1) Pixel Format   : This attribute is a function of the camera to set the pixel format to either 8-bit or 16-bit. In this example 16 bit format is chosen
+                      2) IR Format        : This will give the temperature value in 10mK from  the camera. You can also chose to read the value in 100mK or radiometric
+                      3) IR Frame Rate : This attribute will set the frame rate of the camera. Currently it is set to 50Hz
+C: The IMAQdx Configure Grab VI will trigger the camera to start grabbing frames from the camera
+D: The IMAQ Create VI is used to create a reference in memory to store the images, streaming from the camera
+E: The IMAQdx Grab2 VI is used acquire the most recent frame out from the given memory location and display it in the front panel of the VI
+F: The IMAQ ImageToArray is used to convert the image to a 2D array to extract the current temperature at each pixel of an image
+G: This function converts from 10mKelvin to Celsius (Note: this can be replaced to calculate the temperature to Fahrenheit)
+H: This property node will extract the location of the mouse curser in the image
+ I:  The Index Array VI is used to extract the temperate at a given location of the mouse pointer and display it on the Front panel
+J : The IMAQ Clear overlay VI is used to remove the previous overlay that was written
+K: The IMAQ Overlay Text VI is used to write the temperature value at the location of the mouse pointer
+L: The IMAQ Dispose VI is used to clear the memory that was allocate to store the image
+M:  The IMAQdx Close Camera VI is used to close the unique reference that was created to communicate with the camera
