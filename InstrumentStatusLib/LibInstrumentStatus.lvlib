@@ -6,4 +6,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="stutusindicator.vi" Type="VI" URL="../stutusindicator.vi"/>
+	<Item Name="stutusindicatorwithactivate.vi" Type="VI" URL="../stutusindicatorwithactivate.vi"/>
 </Library>
