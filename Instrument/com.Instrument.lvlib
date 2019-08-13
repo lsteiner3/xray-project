@@ -6,7 +6,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="Agilent33120.vi" Type="VI" URL="../Agilent33120.vi"/>
+	<Item Name="Agilent 33120A.vi" Type="VI" URL="../Agilent 33120A.vi"/>
+	<Item Name="Agilent 33120A_tb Series Generate Standard Waveform.vi" Type="VI" URL="../Agilent 33120A_tb Series Generate Standard Waveform.vi"/>
 	<Item Name="SolenoidA.vi" Type="VI" URL="../SolenoidA.vi"/>
 	<Item Name="SolenoidB.vi" Type="VI" URL="../SolenoidB.vi"/>
 </Library>
