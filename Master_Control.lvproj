@@ -17,6 +17,9 @@
 		<Item Name="Systems" Type="Folder" URL="../Systems">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="TestBench" Type="Folder" URL="../TestBench">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Control_tb.vi" Type="VI" URL="../Control_tb.vi"/>
 		<Item Name="Data_and_Control_Layer.vi" Type="VI" URL="../Data_and_Control_Layer.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
