@@ -5,7 +5,7 @@ This project is the LabView GUI and Control system of the metal 3D printer at Fa
 
 The ***development environment*** requires following:
 
-- LabView 2019 
+- LabView 2018 
 - NI LabView VISA 
 - NI DAQ-mx 
 - Microsoft Visual C++ 2019 (Phase 2) 
@@ -13,7 +13,7 @@ The ***development environment*** requires following:
 
 The ***run-time environment*** requires following: 
 
-- LabView 2019 run-time 
+- LabView 2018 run-time 
 - NI LabView VISA 
 - NI DAQ-mx 
 - Microsoft Visual C++ 2019 run-time (Phase 2) 
