@@ -22,8 +22,14 @@ The ***run-time environment*** requires following:
 ## Installing
 
 1. Right click the empty space with in the folder where you want to put the files and open the Git Bash.
-2. Within the Git Bash, type:   `git clone https://github.com/uw-loci/Metal3DPrinter`
+2. Within the Git Bash, type command: `git clone https://github.com/uw-loci/Metal3DPrinter` and hit `ENTER`
 3. Open LabView and click `File -> Open Project` and select `Master_Control.lvproj`
+
+## Architecture
+
+This program adopt a Microkernal Architecture. All subsystems are standalong and can function individually without the main program. A failure of any subsystems will NOT interrupt the normal execution of the main program. Running the main program will automatically call the other sub VIs and all subVIs run concurrently. 
+
+Global VIs connect each subVI to facilitate data communication. 
 
 ## Authors
 
