@@ -27,7 +27,7 @@ The ***run-time environment*** requires following:
 
 ## Architecture
 
-This program adopt a ***Microkernal Architecture***. All subsystems are standalong and can function individually without the main program. A failure of any subsystems will NOT interrupt the normal execution of the main program. Running the main program will automatically call the other sub VIs and all subVIs run concurrently. 
+This program adopts a ***Microkernal Architecture***. All subsystems are standalong and can function individually without the main program. A failure of any subsystems will NOT interrupt the normal execution of the main program. Running the main program will automatically call the other sub VIs and all subVIs run concurrently. 
 
 Global VIs connect each subVI to facilitate data communication. 
 
