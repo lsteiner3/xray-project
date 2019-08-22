@@ -28,6 +28,20 @@
 		<Item Name="Solenoid Temp.vi" Type="VI" URL="../global/Solenoid Temp.vi"/>
 		<Item Name="com.Instrument.lvlib" Type="Library" URL="../Instrument/com.Instrument.lvlib"/>
 		<Item Name="Global Stop.vi" Type="VI" URL="../Global Stop.vi"/>
+		<Item Name="Read Agilent SYNC" Type="NI-DAQmx Task">
+			<Property Name="\0\ChanType" Type="Str">Digital Input</Property>
+			<Property Name="\0\DI.InvertLines" Type="Str">0</Property>
+			<Property Name="\0\Name" Type="Str">Read Agilent SYNC/DigitalIn</Property>
+			<Property Name="\0\PhysicalChanName" Type="Str">Dev1/port0/line7</Property>
+			<Property Name="Channels" Type="Str">Read Agilent SYNC/DigitalIn</Property>
+			<Property Name="Name" Type="Str">Read Agilent SYNC</Property>
+			<Property Name="SampClk.ActiveEdge" Type="Str">Rising</Property>
+			<Property Name="SampClk.Rate" Type="Str">10000</Property>
+			<Property Name="SampClk.Src" Type="Str">ao/SampleClock</Property>
+			<Property Name="SampQuant.SampMode" Type="Str">Continuous Samples</Property>
+			<Property Name="SampQuant.SampPerChan" Type="Str">2000</Property>
+			<Property Name="SampTimingType" Type="Str">Sample Clock</Property>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
@@ -212,6 +226,10 @@
 				<Item Name="sub Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/sub Waveform Array To Dynamic.vi"/>
 				<Item Name="DAQmx Stop Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Stop Task.vi"/>
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
+				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
+				<Item Name="DAQmx Start Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Start Task.vi"/>
+				<Item Name="DWDT Empty Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Empty Digital.vi"/>
+				<Item Name="DTbl Empty Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Empty Digital.vi"/>
 				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
