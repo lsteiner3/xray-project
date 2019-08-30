@@ -63,6 +63,24 @@
 			<Property Name="SampQuant.SampPerChan" Type="Str">1000</Property>
 			<Property Name="SampTimingType" Type="Str">Sample Clock</Property>
 		</Item>
+		<Item Name="AgilentOutputAnalog" Type="NI-DAQmx Task">
+			<Property Name="\0\AI.Max" Type="Str">10</Property>
+			<Property Name="\0\AI.MeasType" Type="Str">Voltage</Property>
+			<Property Name="\0\AI.Min" Type="Str">-10</Property>
+			<Property Name="\0\AI.TermCfg" Type="Str">Differential</Property>
+			<Property Name="\0\AI.Voltage.Units" Type="Str">Volts</Property>
+			<Property Name="\0\ChanType" Type="Str">Analog Input</Property>
+			<Property Name="\0\Name" Type="Str">AgilentOutputAnalog/Voltage</Property>
+			<Property Name="\0\PhysicalChanName" Type="Str">Dev1/ai0</Property>
+			<Property Name="Channels" Type="Str">AgilentOutputAnalog/Voltage</Property>
+			<Property Name="Name" Type="Str">AgilentOutputAnalog</Property>
+			<Property Name="SampClk.ActiveEdge" Type="Str">Rising</Property>
+			<Property Name="SampClk.Rate" Type="Str">100000</Property>
+			<Property Name="SampClk.Src" Type="Str"></Property>
+			<Property Name="SampQuant.SampMode" Type="Str">Finite Samples</Property>
+			<Property Name="SampQuant.SampPerChan" Type="Str">10000</Property>
+			<Property Name="SampTimingType" Type="Str">Sample Clock</Property>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
@@ -261,7 +279,7 @@
 				<Item Name="IMAQ Overlay Text" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Text"/>
 				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
 				<Item Name="IMAQdx Close Camera.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/IMAQdx.llb/IMAQdx Close Camera.vi"/>
-				<Item Name="DAQmx Configure Input Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/buffer.llb/DAQmx Configure Input Buffer.vi"/>
+				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Agilent 33XXX Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent 33XXX Series/Agilent 33XXX Series.lvlib"/>
