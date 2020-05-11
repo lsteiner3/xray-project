@@ -38,6 +38,7 @@
 			<Item Name="WaveformDAQ_tb4.vi" Type="VI" URL="../TestBench/WaveformDAQ_tb4.vi"/>
 			<Item Name="DAQtod_tb.vi" Type="VI" URL="../TestBench/DAQtod_tb.vi"/>
 			<Item Name="Relay_tb.vi" Type="VI" URL="../TestBench/Relay_tb.vi"/>
+			<Item Name="Gauge_tb.vi" Type="VI" URL="../TestBench/Gauge_tb.vi"/>
 		</Item>
 		<Item Name="FLIR_A615_using_LabVIEW" Type="Folder"/>
 		<Item Name="Control_tb.vi" Type="VI" URL="../Control_tb.vi"/>
@@ -47,7 +48,7 @@
 		<Item Name="SMlogic.vi" Type="VI" URL="../SMlogic.vi"/>
 		<Item Name="Solenoid Temp.vi" Type="VI" URL="../global/Solenoid Temp.vi"/>
 		<Item Name="com.Instrument.lvlib" Type="Library" URL="../Instrument/com.Instrument.lvlib"/>
-		<Item Name="Global Stop.vi" Type="VI" URL="../Global Stop.vi"/>
+		<Item Name="Global.vi" Type="VI" URL="../Global.vi"/>
 		<Item Name="Read Agilent SYNC" Type="NI-DAQmx Task">
 			<Property Name="\0\ChanType" Type="Str">Digital Input</Property>
 			<Property Name="\0\DI.InvertLines" Type="Str">0</Property>
@@ -98,6 +99,7 @@
 			<Property Name="SampQuant.SampPerChan" Type="Str">10000</Property>
 			<Property Name="SampTimingType" Type="Str">Sample Clock</Property>
 		</Item>
+		<Item Name="Serial.vi" Type="VI" URL="../Serial.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -347,6 +349,11 @@
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
+				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
+				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
+				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
+				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Agilent 33XXX Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent 33XXX Series/Agilent 33XXX Series.lvlib"/>
@@ -364,6 +371,7 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

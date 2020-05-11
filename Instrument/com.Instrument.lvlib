@@ -9,6 +9,7 @@
 	<Item Name="Agilent 33120A.vi" Type="VI" URL="../Agilent 33120A.vi"/>
 	<Item Name="Agilent 33120A_tb Series Generate Standard Waveform.vi" Type="VI" URL="../Agilent 33120A_tb Series Generate Standard Waveform.vi"/>
 	<Item Name="Gauge.vi" Type="VI" URL="../Gauge.vi"/>
+	<Item Name="Serial.vi" Type="VI" URL="../Serial.vi"/>
 	<Item Name="SolenoidA.vi" Type="VI" URL="../SolenoidA.vi"/>
 	<Item Name="SolenoidB.vi" Type="VI" URL="../SolenoidB.vi"/>
 </Library>
