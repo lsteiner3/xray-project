@@ -1,5 +1,5 @@
 # Metal3DPrinter
-This project is the LabView GUI and Control system of the metal 3D printer at Fab Lab. The system provides a GUI for users to monitor and control the instruments.  
+This is the copy that Leo is using. This project is the LabView GUI and Control system of the metal 3D printer at Fab Lab. The system provides a GUI for users to monitor and control the instruments.  
 
 ## Prerequisites
 
