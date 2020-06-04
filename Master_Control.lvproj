@@ -162,13 +162,25 @@
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
+				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
+				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
+				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
+				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
+				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
+				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent 33XXX Series/Public/Initialize.vi"/>
-				<Item Name="Configure Standard Waveform.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent 33XXX Series/Public/Configure/Configure Standard Waveform.vi"/>
-				<Item Name="Enable Output.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent 33XXX Series/Public/Action-Status/Enable Output.vi"/>
-				<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent 33XXX Series/Public/Close.vi"/>
-				<Item Name="Unit address.ctl" Type="VI" URL="/&lt;instrlib&gt;/MKS 972B/Public/Utility/Unit address.ctl"/>
+				<Item Name="Agilent 33XXX Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent 33XXX Series/Agilent 33XXX Series.lvlib"/>
+				<Item Name="MKS 972B.lvlib" Type="Library" URL="/&lt;instrlib&gt;/MKS 972B/MKS 972B.lvlib"/>
+				<Item Name="Set Pressure Unit.vi" Type="VI" URL="/&lt;instrlib&gt;/MKS 972B/Public/Configure/Set Pressure Unit.vi"/>
+				<Item Name="MicroPirani Atmospheric Adjustment.vi" Type="VI" URL="/&lt;instrlib&gt;/MKS 972B/Public/Configure/MicroPirani Atmospheric Adjustment.vi"/>
+				<Item Name="MicroPirani Gas Calibration.vi" Type="VI" URL="/&lt;instrlib&gt;/MKS 972B/Public/Configure/MicroPirani Gas Calibration.vi"/>
+				<Item Name="MicroPirani Zero Adjustment.vi" Type="VI" URL="/&lt;instrlib&gt;/MKS 972B/Public/Configure/MicroPirani Zero Adjustment.vi"/>
+				<Item Name="MicroPirani AutoZero Limit.vi" Type="VI" URL="/&lt;instrlib&gt;/MKS 972B/Public/Configure/MicroPirani AutoZero Limit.vi"/>
+				<Item Name="ColdCathode FullScale Adjustment.vi" Type="VI" URL="/&lt;instrlib&gt;/MKS 972B/Public/Configure/ColdCathode FullScale Adjustment.vi"/>
+				<Item Name="ColdCathode Zero Adjustment.vi" Type="VI" URL="/&lt;instrlib&gt;/MKS 972B/Public/Configure/ColdCathode Zero Adjustment.vi"/>
+				<Item Name="Set User Tag.vi" Type="VI" URL="/&lt;instrlib&gt;/MKS 972B/Public/Configure/Set User Tag.vi"/>
+				<Item Name="Set User Switch.vi" Type="VI" URL="/&lt;instrlib&gt;/MKS 972B/Public/Configure/Set User Switch.vi"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
