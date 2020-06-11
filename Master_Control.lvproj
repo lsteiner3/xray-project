@@ -99,6 +99,7 @@
 			<Property Name="SampTimingType" Type="Str">Sample Clock</Property>
 		</Item>
 		<Item Name="FSM.vi" Type="VI" URL="../FSM.vi"/>
+		<Item Name="temperature gauge.vi" Type="VI" URL="../temperature gauge.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
