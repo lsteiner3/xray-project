@@ -42,6 +42,7 @@
 			<Item Name="WaveformDAQ_tb4.vi" Type="VI" URL="../TestBench/WaveformDAQ_tb4.vi"/>
 			<Item Name="DAQtod_tb.vi" Type="VI" URL="../TestBench/DAQtod_tb.vi"/>
 			<Item Name="Relay_tb.vi" Type="VI" URL="../TestBench/Relay_tb.vi"/>
+			<Item Name="Cathode_controller_tb.vi" Type="VI" URL="../TestBench/Cathode_controller_tb.vi"/>
 		</Item>
 		<Item Name="FLIR_A615_using_LabVIEW" Type="Folder"/>
 		<Item Name="Control_tb.vi" Type="VI" URL="../Control_tb.vi"/>
