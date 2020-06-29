@@ -33,6 +33,10 @@
 			<Item Name="WaveformDAQ_A&amp;D.vi" Type="VI" URL="../TestBench/WaveformDAQ_A&amp;D.vi"/>
 			<Item Name="WaveformDAQ_digital_tb.vi" Type="VI" URL="../TestBench/WaveformDAQ_digital_tb.vi"/>
 			<Item Name="WaveformDAQ_tb.vi" Type="VI" URL="../TestBench/WaveformDAQ_tb.vi"/>
+			<Item Name="analog signal_out.vi" Type="VI" URL="../TestBench/analog signal_out.vi"/>
+			<Item Name="DAC and ADC doesnt work.vi" Type="VI" URL="../TestBench/DAC and ADC doesnt work.vi"/>
+			<Item Name="Resampling example.vi" Type="VI" URL="../TestBench/Resampling example.vi"/>
+			<Item Name="signal sampling digital.vi" Type="VI" URL="../TestBench/signal sampling digital.vi"/>
 			<Item Name="WaveformDAQ_tb2.vi" Type="VI" URL="../TestBench/WaveformDAQ_tb2.vi"/>
 			<Item Name="WaveformDAQ_tb3.vi" Type="VI" URL="../TestBench/WaveformDAQ_tb3.vi"/>
 			<Item Name="WaveformDAQ_tb4.vi" Type="VI" URL="../TestBench/WaveformDAQ_tb4.vi"/>
@@ -100,10 +104,6 @@
 		</Item>
 		<Item Name="FSM.vi" Type="VI" URL="../FSM.vi"/>
 		<Item Name="temperature gauge.vi" Type="VI" URL="../temperature gauge.vi"/>
-		<Item Name="analog signal_out.vi" Type="VI" URL="../TestBench/analog signal_out.vi"/>
-		<Item Name="signal sampling digital.vi" Type="VI" URL="../TestBench/signal sampling digital.vi"/>
-		<Item Name="DAC and ADC doesnt work.vi" Type="VI" URL="../TestBench/DAC and ADC doesnt work.vi"/>
-		<Item Name="Resampling example.vi" Type="VI" URL="../TestBench/Resampling example.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
